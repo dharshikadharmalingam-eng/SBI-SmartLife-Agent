@@ -1,0 +1,62 @@
+
+1. Customer Onboarding
+   
+   - A new or existing customer interacts with SBI SmartLife Agent through the SBI mobile app, web portal, or chatbot interface.
+   - Customer profile data, transaction history, and digital banking activity are securely collected with consent.
+
+2. Customer Digital Twin Creation
+   
+   - The platform creates a dynamic digital profile (Digital Twin) that represents the customer's preferences, banking behavior, financial goals, and engagement patterns.
+
+3. AI Agent Analysis
+   
+   - Specialized AI agents analyze customer data to identify onboarding gaps, predict customer needs, and determine the next best actions.
+   - Examples include UPI activation, mobile banking adoption, savings plans, investment opportunities, or personalized banking recommendations.
+
+4. Digital Adoption Scoring
+   
+   - The system calculates a Digital Adoption Score based on the customer's usage of banking services such as UPI, net banking, bill payments, and digital transactions.
+
+5. Personalized Engagement
+   
+   - AI agents proactively engage customers through notifications, chat, voice assistance, and personalized recommendations in their preferred language.
+
+6. Continuous Learning & Optimization
+   
+   - Customer responses and behavioral data are continuously analyzed to improve recommendations and engagement strategies.
+   - The Digital Twin and Adoption Score are updated in real time.
+
+7. Analytics Dashboard
+   
+   - Banks receive actionable insights on customer acquisition, engagement levels, adoption trends, and campaign effectiveness through a centralized dashboard.
+
+Architecture Components:
+Customer Interface → API Gateway → AI Agent Layer (LangGraph/CrewAI) → Digital Twin Engine → Recommendation Engine → Digital Adoption Scoring Module → PostgreSQL & Vector Database → Analytics Dashboard
+Customer
+    │
+    ▼
+Web / Mobile App
+    │
+    ▼
+API Gateway (FastAPI)
+    │
+    ▼
+SBI SmartLife Agent
+ ┌───────────────┐
+ │ Onboarding AI │
+ │ Adoption AI   │
+ │ Engagement AI │
+ └───────────────┘
+    │
+    ▼
+Digital Twin Engine
+    │
+    ├──► Adoption Score
+    ├──► Recommendation Engine
+    └──► Customer Insights
+    │
+    ▼
+PostgreSQL + Vector DB
+    │
+    ▼
+Bank Analytics Dashboard
