@@ -1,0 +1,53 @@
+Frontend
+
+- React.js
+- Next.js
+- Tailwind CSS
+- Chart.js
+
+Backend
+
+- FastAPI (Python)
+- REST APIs
+- WebSocket Communication
+
+Agentic AI Layer
+
+- LangGraph
+- CrewAI
+- OpenAI GPT-4 / GPT-5 API
+- Retrieval-Augmented Generation (RAG)
+
+Machine Learning
+
+- Scikit-learn
+- Pandas
+- NumPy
+
+Database
+
+- PostgreSQL
+- ChromaDB (Vector Database)
+- Redis Cache
+
+Cloud & Deployment
+
+- Docker
+- AWS EC2
+- AWS S3
+- GitHub Actions
+
+Security
+
+- JWT Authentication
+- Role-Based Access Control (RBAC)
+- End-to-End Encryption
+
+Core Modules
+
+- Customer Digital Twin Engine
+- Multi-Agent AI Framework
+- Digital Adoption Scoring System
+- Recommendation Engine
+- Financial Wellness Assistant
+- Analytics Dashboard
